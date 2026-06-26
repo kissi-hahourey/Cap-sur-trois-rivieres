@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cap sur Trois-Rivières — Installation de la famille Kissi</title>
+<meta name="description" content="Site personnel de préparation à l'installation à Trois-Rivières, Québec." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===================== NAVIGATION ===================== -->
+<header class="topbar" id="topbar">
+  <div class="topbar-inner">
+    <a href="#accueil" class="brand">
+      <span class="brand-mark" aria-hidden="true">⛵</span>
+      <span class="brand-text">Cap sur <strong>Trois-Rivières</strong></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="#accueil" class="nav-link">Accueil</a>
+      <a href="#demarches" class="nav-link">Démarches</a>
+      <a href="#education" class="nav-link">Éducation</a>
+      <a href="#emploi" class="nav-link">Emploi</a>
+      <a href="#quotidien" class="nav-link">Vie quotidienne</a>
+      <a href="#ressources" class="nav-link">Ressources</a>
+      <a href="#actualites" class="nav-link nav-link--accent">Promos du mois</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===================== HERO / ACCUEIL ===================== -->
+<section class="hero" id="accueil">
+  <div class="hero-river" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <p class="eyebrow">Famille Kissi · 4165 rue Savard, Trois-Rivières</p>
+    <h1 class="hero-title">Notre cap, c'est le <em>4 juillet 2026.</em></h1>
+    <p class="hero-sub">Tout ce qu'il faut savoir, dans l'ordre, pour s'installer sereinement depuis Abidjan jusqu'à notre nouvelle vie en Mauricie — pour Charles, et toute la famille.</p>
+
+    <div class="countdown" id="countdown" aria-live="polite">
+      <div class="countdown-box">
+        <span class="countdown-num" id="cd-days">--</span>
+        <span class="countdown-label">jours</span>
+      </div>
+      <div class="countdown-box">
+        <span class="countdown-num" id="cd-hours">--</span>
+        <span class="countdown-label">heures</span>
+      </div>
+      <div class="countdown-box">
+        <span class="countdown-num" id="cd-mins">--</span>
+        <span class="countdown-label">minutes</span>
+      </div>
+      <p class="countdown-caption">avant l'arrivée à Trois-Rivières</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FEUILLE DE ROUTE (Semaine 1 / Mois 1 / Mois 3) ===================== -->
+<section class="roadmap" id="feuille-de-route">
+  <div class="section-inner">
+    <p class="eyebrow eyebrow--dark">La feuille de route</p>
+    <h2 class="section-title">Trois temps pour s'installer</h2>
+    <p class="section-lede">Pas besoin de tout faire en même temps. Voici ce qui compte vraiment, étape par étape.</p>
+
+    <div class="roadmap-track">
+      <div class="roadmap-line" aria-hidden="true"></div>
+
+      <article class="roadmap-stage" data-stage="1">
+        <div class="roadmap-stage-head">
+          <span class="roadmap-tag">Semaine 1</span>
+          <h3>Exister sur papier</h3>
+        </div>
+        <ul class="roadmap-list">
+          <li><strong>NAS</strong> — Demander le numéro d'assurance sociale (Service Canada) dès l'arrivée, avant tout emploi ou compte bancaire.</li>
+          <li><strong>RAMQ</strong> — Déposer la demande d'admissibilité à l'assurance maladie. Compter jusqu'à 3 mois de délai de carence : garder une assurance voyage valide.</li>
+          <li><strong>Compte bancaire</strong> — Ouvrir un compte (Desjardins ou Banque Nationale) pour recevoir un premier salaire et payer le logement.</li>
+          <li><strong>Adresse confirmée</strong> — Signaler le 4165 rue Savard à Immigration Québec et mettre à jour l'adresse IRCC pour la carte de résident permanent.</li>
+          <li><strong>École</strong> — Contacter le Centre de services scolaire du Chemin-du-Roy pour inscrire les enfants sans attendre la rentrée.</li>
+        </ul>
+      </article>
+
+      <article class="roadmap-stage" data-stage="2">
+        <div class="roadmap-stage-head">
+          <span class="roadmap-tag">Mois 1</span>
+          <h3>S'organiser au quotidien</h3>
+        </div>
+        <ul class="roadmap-list">
+          <li><strong>SANA Trois-Rivières</strong> — Prendre rendez-vous pour la session « Premières démarches d'installation » : logement, allocations, références communautaires.</li>
+          <li><strong>Permis de conduire</strong> — Ouvrir un dossier à la SAAQ : un permis ivoirien demande généralement l'examen théorique et pratique complets (pas d'entente automatique). Mieux vaut commencer tôt.</li>
+          <li><strong>Recherche d'emploi active</strong> — Inscription à Services Québec, dépôt du CV chez Carrefour Jeunesse-Emploi et dans les agences de placement.</li>
+          <li><strong>Meubler le logement</strong> — Comparer Canadian Tire, IKEA et les groupes de dons entre nouveaux arrivants avant d'acheter neuf.</li>
+          <li><strong>Repères de quartier</strong> — Localiser l'épicerie, la pharmacie, l'arrêt d'autobus et l'école à pied depuis la rue Savard.</li>
+        </ul>
+      </article>
+
+      <article class="roadmap-stage" data-stage="3">
+        <div class="roadmap-stage-head">
+          <span class="roadmap-tag">Mois 3</span>
+          <h3>Construire la suite</h3>
+        </div>
+        <ul class="roadmap-list">
+          <li><strong>Formation ciblée</strong> — Évaluer une AEC au Cégep de Trois-Rivières (financée à 100 % pour nouveaux arrivants admissibles) ou une formation courte à l'UQTR.</li>
+          <li><strong>Emploi stabilisé</strong> — Viser un premier emploi chez Kruger, Marmen ou en commerce de détail en attendant un poste aligné avec le profil finance/administration.</li>
+          <li><strong>RAMQ active</strong> — Vérifier la réception de la carte et inscrire la famille à un groupe de médecine de famille (GMF) via le guichet d'accès.</li>
+          <li><strong>Vie sociale</strong> — Participer aux activités de la Maison des familles et du Centre d'action bénévole pour élargir le réseau local.</li>
+          <li><strong>Bilan financier</strong> — Revoir budget logement/épicerie après 3 mois de promos suivies (Maxi, Super C) et ajuster.</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 1. DÉMARCHES ADMINISTRATIVES ===================== -->
+<section class="block block--admin" id="demarches">
+  <div class="section-inner">
+    <p class="eyebrow">01 — À faire dès l'arrivée</p>
+    <h2 class="section-title">Démarches administratives</h2>
+    <p class="section-lede">Le strict nécessaire pour exister légalement et administrativement au Québec, dans le bon ordre.</p>
+
+    <div class="card-grid card-grid--3">
+      <div class="card">
+        <h3 class="card-title">Immigration Québec &amp; IRCC</h3>
+        <p>Confirmer la nouvelle adresse (4165 rue Savard) auprès d'IRCC pour la livraison de la carte de résident permanent, et auprès du MIFI pour le suivi du dossier d'établissement.</p>
+        <ul class="card-checklist">
+          <li>Mise à jour d'adresse en ligne dans le compte IRCC</li>
+          <li>Conserver la confirmation de résidence permanente (CRP) sur soi</li>
+          <li>Rendez-vous avec un agent du MIFI via le SANA (voir section Ressources)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">RAMQ — Assurance maladie</h3>
+        <p>La demande d'admissibilité se dépose dès l'arrivée. Un délai de carence pouvant aller jusqu'à 3 mois s'applique généralement aux nouveaux arrivants : garder une assurance voyage active jusqu'à la réception de la carte.</p>
+        <ul class="card-checklist">
+          <li>Formulaire d'inscription RAMQ + pièces d'identité de toute la famille</li>
+          <li>Acte de naissance pour l'enfant de 5 ans</li>
+          <li>Vérifier le statut en ligne après dépôt</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">NAS — Numéro d'assurance sociale</h3>
+        <p>Indispensable avant toute embauche ou ouverture de compte avec dépôt direct. La demande se fait auprès de Service Canada, en ligne ou en personne.</p>
+        <ul class="card-checklist">
+          <li>Carte de résident permanent ou CRP</li>
+          <li>Passeport</li>
+          <li>Demande possible dès le premier jour</li>
+        </ul>
+      </div>
+
+      <div class="card card--wide">
+        <h3 class="card-title">Permis de conduire — SAAQ</h3>
+        <p>Point de service : Service d'immatriculation, <strong>1500 rue Royale, Trois-Rivières</strong>. La Côte d'Ivoire ne figure pas parmi les juridictions ayant une entente automatique de réciprocité avec le Québec : un permis ivoirien valide permet de conduire <strong>6 mois</strong> après l'arrivée, mais l'obtention du permis québécois passe généralement par les examens théorique et pratique complets (et non un simple échange).</p>
+        <ul class="card-checklist">
+          <li>Ouvrir un dossier à la SAAQ dès le 1ᵉʳ mois pour limiter l'attente de rendez-vous</li>
+          <li>Apporter une preuve d'au moins 1 an d'expérience de conduite en Côte d'Ivoire</li>
+          <li>Réviser le Code de la sécurité routière du Québec avant l'examen théorique</li>
+          <li>Vérifier les exigences à jour sur saaq.gouv.qc.ca avant le rendez-vous</li>
+        </ul>
+      </div>
+
+      <div class="card card--wide">
+        <h3 class="card-title">Ouverture de compte bancaire</h3>
+        <p>Trois institutions présentes à Trois-Rivières acceptent les nouveaux résidents sans historique de crédit local, avec des programmes dédiés.</p>
+        <div class="mini-compare">
+          <div class="mini-compare-item">
+            <strong>Desjardins</strong>
+            <span>Caisse Desjardins des Trois-Rivières — programme nouveaux arrivants, forte présence communautaire locale.</span>
+          </div>
+          <div class="mini-compare-item">
+            <strong>Banque Nationale</strong>
+            <span>Offre dédiée « Nouveaux arrivants », carte de crédit facilitée sans historique canadien.</span>
+          </div>
+          <div class="mini-compare-item">
+            <strong>RBC</strong>
+            <span>Présence pancanadienne, pratique si transferts internationaux fréquents avec la Côte d'Ivoire.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 2. ÉDUCATION ===================== -->
+<section class="block block--edu" id="education">
+  <div class="section-inner">
+    <p class="eyebrow">02 — Apprendre et se qualifier</p>
+    <h2 class="section-title">Éducation et formation</h2>
+    <p class="section-lede">Pour la famille : une rentrée scolaire bien préparée. Pour Charles : une formation courte qui renforce le profil finance/administration déjà solide.</p>
+
+    <div class="card-grid card-grid--2">
+      <div class="card">
+        <h3 class="card-title">UQTR — Formations courtes</h3>
+        <p>L'Université du Québec à Trois-Rivières propose des formations continues et microprogrammes en gestion, comptabilité et informatique, utiles pour faire reconnaître l'expérience acquise chez AGL sur le marché québécois.</p>
+        <ul class="card-checklist">
+          <li>Microprogrammes en gestion / comptabilité (quelques mois)</li>
+          <li>Formation continue à temps partiel, compatible avec un emploi</li>
+          <li>Service des formations continues UQTR à contacter directement</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">Cégep de Trois-Rivières — AEC</h3>
+        <p>Les attestations d'études collégiales (AEC) sont souvent financées à 100 % pour les nouveaux arrivants admissibles (selon programme d'aide à l'emploi de Services Québec), avec des parcours courts et orientés marché du travail.</p>
+        <ul class="card-checklist">
+          <li>AEC en comptabilité, gestion ou bureautique : pertinentes pour le profil de Charles</li>
+          <li>Vérifier l'admissibilité au financement via Services Québec avant inscription</li>
+          <li>Durée généralement de 9 à 18 mois selon le programme</li>
+        </ul>
+      </div>
+
+      <div class="card card--wide">
+        <h3 class="card-title">École primaire — pour l'enfant de 5 ans</h3>
+        <p>Deux écoles de proximité, adaptées à un début d'apprentissage du français en contexte scolaire.</p>
+        <div class="mini-compare">
+          <div class="mini-compare-item">
+            <strong>École Saint-Philippe</strong>
+            <span>École primaire publique du Centre de services scolaire du Chemin-du-Roy. Contacter le secrétariat pour les modalités d'inscription et le soutien en francisation.</span>
+          </div>
+          <div class="mini-compare-item">
+            <strong>École Sainte-Marguerite</strong>
+            <span>Autre option de proximité, à comparer pour la distance depuis la rue Savard et les places disponibles en classe d'accueil.</span>
+          </div>
+        </div>
+        <p class="card-note">Inscription à faire le plus tôt possible : demander si une classe d'accueil ou un soutien linguistique est prévu pour faciliter le début de langage en français.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 3. EMPLOI ===================== -->
+<section class="block block--jobs" id="emploi">
+  <div class="section-inner">
+    <p class="eyebrow">03 — Travailler à Trois-Rivières</p>
+    <h2 class="section-title">Emploi et entreprises locales</h2>
+    <p class="section-lede">Dans un rayon de 10 km autour de la rue Savard : des employeurs accessibles rapidement, et le réseau pour viser ensuite un poste aligné avec 8 ans d'expérience en facturation et gestion de comptes clients.</p>
+
+    <div class="card-grid card-grid--3">
+      <div class="card">
+        <h3 class="card-title">Kruger</h3>
+        <p>Usine de pâtes et papiers / carton. Embauche régulièrement des journaliers et opérateurs de production, postes ouverts sans expérience canadienne préalable.</p>
+      </div>
+      <div class="card">
+        <h3 class="card-title">Marmen</h3>
+        <p>Métallurgie et fabrication de grandes structures (éolien, transport). Plusieurs postes de production accessibles sans expérience canadienne, avec formation à l'interne.</p>
+      </div>
+      <div class="card">
+        <h3 class="card-title">Commerces de détail</h3>
+        <p>Walmart, Maxi et Super C recrutent en continu pour des postes d'entrée (caisse, mise en rayon, service client) — utiles comme premier emploi pendant la recherche d'un poste en finance/administration.</p>
+      </div>
+    </div>
+
+    <div class="card card--highlight">
+      <h3 class="card-title">Organismes d'aide à l'emploi</h3>
+      <div class="mini-compare">
+        <div class="mini-compare-item">
+          <strong>Carrefour Jeunesse-Emploi</strong>
+          <span>Accompagnement personnalisé, ateliers CV/entretien, réseau d'employeurs locaux.</span>
+        </div>
+        <div class="mini-compare-item">
+          <strong>Services Québec</strong>
+          <span>Inscription au placement en ligne, accès aux mesures de formation financées, suivi de l'aide à l'emploi.</span>
+        </div>
+      </div>
+      <p class="card-note">Objectif réaliste : un premier emploi alimentaire dans les 4 à 8 premières semaines, en parallèle d'une recherche ciblée vers un poste en facturation, comptes clients ou administration — domaine où l'expérience chez AGL est directement transférable.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 4. VIE QUOTIDIENNE ===================== -->
+<section class="block block--life" id="quotidien">
+  <div class="section-inner">
+    <p class="eyebrow">04 — Au jour le jour</p>
+    <h2 class="section-title">Vie quotidienne et commerces</h2>
+    <p class="section-lede">Où faire les courses, où trouver de bonnes affaires, et quelles banques sont à proximité de la rue Savard.</p>
+
+    <div class="card-grid card-grid--2">
+      <div class="card">
+        <h3 class="card-title">Alimentation &amp; biens non périssables</h3>
+        <ul class="card-checklist">
+          <li><strong>Maxi</strong> — épicerie à bas prix, bon point de départ pour le budget famille</li>
+          <li><strong>Super C</strong> — promotions hebdomadaires sur les produits de base</li>
+          <li><strong>Canadian Tire</strong> — outils, articles de maison, saisonnier</li>
+          <li><strong>IKEA Trois-Rivières</strong> — mobilier complet pour un premier logement</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">Marchés et boucheries locales</h3>
+        <ul class="card-checklist">
+          <li><strong>Marché public de Trois-Rivières</strong> — produits frais et locaux, bon complément aux grandes surfaces</li>
+          <li><strong>Boucherie Nobert</strong> — viandes de qualité, conseils de préparation et coupes adaptées</li>
+        </ul>
+      </div>
+
+      <div class="card card--wide">
+        <h3 class="card-title">Banques à proximité</h3>
+        <div class="mini-compare">
+          <div class="mini-compare-item">
+            <strong>Caisse Desjardins des Trois-Rivières</strong>
+            <span>Réseau coopératif bien implanté localement.</span>
+          </div>
+          <div class="mini-compare-item">
+            <strong>Banque Nationale</strong>
+            <span>Forte présence au Québec, offre nouveaux arrivants.</span>
+          </div>
+          <div class="mini-compare-item">
+            <strong>RBC</strong>
+            <span>Utile pour les transferts internationaux et la carte de crédit rapide.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 5. RESSOURCES NOUVEAUX ARRIVANTS ===================== -->
+<section class="block block--resources" id="ressources">
+  <div class="section-inner">
+    <p class="eyebrow">05 — Du soutien, pas seulement des démarches</p>
+    <h2 class="section-title">Ressources pour nouveaux arrivants</h2>
+    <p class="section-lede">Des organismes gratuits et confidentiels, pensés spécifiquement pour les familles immigrantes à Trois-Rivières.</p>
+
+    <div class="card-grid card-grid--3">
+      <div class="card">
+        <h3 class="card-title">SANA Trois-Rivières</h3>
+        <p>Service d'accueil des nouveaux arrivants, mandaté par le MIFI depuis 1968. Accompagnement individuel, sessions « Premières démarches d'installation », aide à la recherche de logement, référencement RAMQ/NAS.</p>
+        <p class="card-contact">919, boul. du Saint-Maurice, Trois-Rivières · 819 375-2196</p>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">Centre d'action bénévole de Trois-Rivières</h3>
+        <p>Réseau de bénévoles et services de soutien communautaire — dépannage, accompagnement, activités d'entraide pour faciliter les premiers mois.</p>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">Maison des familles</h3>
+        <p>Activités familiales, ateliers parents-enfants et occasions de rencontre pour aider toute la famille (y compris les enfants) à créer des liens sociaux dans le nouveau quartier.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ACTUALITÉS / PROMOS DU MOIS ===================== -->
+<section class="block block--news" id="actualites">
+  <div class="section-inner">
+    <p class="eyebrow eyebrow--dark">À jour ce mois-ci</p>
+    <h2 class="section-title">Actualités &amp; promotions du mois</h2>
+    <p class="section-lede">Cette section se met à jour facilement : ouvrez <code>data.js</code> et modifiez le tableau <code>actualites</code>. Pas besoin de toucher au reste du site.</p>
+
+    <div class="news-grid" id="newsGrid">
+      <!-- généré dynamiquement par script.js à partir de data.js -->
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <p>Cap sur Trois-Rivières — site personnel de la famille Kissi.</p>
+    <p class="footer-note">Les informations (adresses, programmes, délais) évoluent : vérifiez toujours les sites officiels (Québec.ca, SAAQ, RAMQ, IRCC) avant une démarche importante.</p>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
